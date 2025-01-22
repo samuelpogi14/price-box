@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price table</title>
+</head>
+<style>
+    body{
+        background-color: khaki;
+    }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    text-align: center;
+}
+.box{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(77, 131, 212);
+    border-radius: 15px;
+}
+.text{
+    text-align: center;
+}
+#b1{
+    font-weight: bold;
+}
+#b2{
+    font-size: 3ch;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    margin-right:40px;
+}
+</style>
+<body>
+    <div class="container">
+<div class="box" id="box1">
+    <h1 class="text" id="b1">Basic Bike</h1>
+    <h2 class="text" id="b2">$99/month</h2>
+     <ul>
+   <li>&#x2714;Single Speed</li>
+   <li>&#x2714;Lightweight Frame</li>
+   <li>&#x2716;Gears</li>
+   <li>&#x2716;Suspension</li>
+            </ul>
+</div>
+<div class="box" id="box2">
+    <h1 class="text" id="b1">Standard Bike</h1>
+    <h2 class="text" id="b2">$199/month</h2>
+     <ul>
+   <li>&#x2714;Multi-Speed Gears</li>
+   <li>&#x2714;Aluminum Frame</li>
+   <li>&#x2716;Front Suspension</li>
+   <li>&#x2716;Rear Suspension</li>
+            </ul></div>
+<div class="box" id="box3"><h1 class="text" id="b1">Premium Bike</h1>
+    <h2 class="text" id="b2">$299/month</h2>
+     <ul>
+   <li>&#x2714;Full Suspension</li>
+   <li>&#x2714;Carbon Fiber Frame</li>
+   <li>&#x2716;Hydraulic Brakes</li>
+   <li>&#x2716;24-Speed Gears</li>
+            </ul></div>
+    </div>
+</body>
+</html>
